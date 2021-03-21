@@ -1,3 +1,5 @@
+package org.openjfx;
+
 import javafx.scene.Group;
 import javafx.scene.paint.Paint;
 import javafx.scene.shape.*;

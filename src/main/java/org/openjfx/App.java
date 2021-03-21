@@ -1,10 +1,16 @@
-import javafx.application.Application;
-import javafx.scene.Group;
-import javafx.scene.Scene;
-import javafx.scene.paint.Color;
-import javafx.stage.Stage;
+package org.openjfx;
 
-public class Main extends Application{
+import javafx.application.Application;
+import javafx.scene.Scene;
+import javafx.stage.Stage;
+import javafx.scene.Group;
+import javafx.scene.paint.Color;
+
+/**
+ * JavaFX App
+ */
+public class App extends Application {
+
     Figures figures = new Figures();
 
     public static void main(String[] args){
@@ -25,4 +31,5 @@ public class Main extends Application{
         primaryStage.setScene(scene);
         primaryStage.show();
     }
+
 }
